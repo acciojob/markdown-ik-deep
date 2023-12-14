@@ -33,7 +33,7 @@ const App = () => {
         {loading ? (
           <p className="loading">Loading...</p>
         ) : (
-          <div>{markdown}</div>
+          <div><strong>{markdown}</strong></div>
         )}
       </div>
     </div>
