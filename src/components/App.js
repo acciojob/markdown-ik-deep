@@ -29,7 +29,7 @@ const App = () => {
         ></textarea>
       </div>
       <div className="preview">
-        <h2>Preview</h2>
+        <h1>Preview</h1>
         {loading ? (
           <p className="loading">Loading...</p>
         ) : (
